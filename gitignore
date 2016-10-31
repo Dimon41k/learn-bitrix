@@ -1,0 +1,44 @@
+# Правила для папки /bitrix
+bitrix/*
+!bitrix/templates/
+!bitrix/php_interface/
+!bitrix/components/
+bitrix/components/bitrix/
+bitrix/php_interface/after_connect.php
+bitrix/php_interface/after_connect_d7.php
+bitrix/php_interface/dbconn.php
+
+
+# Общие правила
+.gitignore
+.htaccess
+robots.txt
+upload/
+upload
+webstat/
+cgi-bin/
+sitemap_000.xml
+sitemap_index.xml
+sitemap_yandex.xml
+sitemap.xml
+_doc/
+_html/
+_test/
+_dump.html
+
+download/
+images/
+song_1.mp3/
+video/
+
+# Список расширений файлов, которые в любом случае игнорируются
+*.log
+*.gz
+*.bz2
+*.zip
+*.rar
+*.7z
+*.dump
+*.sql
+/cron/*.lock
+/cron/*.pid
